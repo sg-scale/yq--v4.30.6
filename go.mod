@@ -1,7 +1,7 @@
 module github.com/mikefarah/yq/v4
 
 require (
-	github.com/a8m/envsubst v1.3.0
+	github.com/a8m/envsubst v1.4.3
 	github.com/alecthomas/participle/v2 v2.0.0-beta.5
 	github.com/alecthomas/repr v0.1.1
 	github.com/dimchansky/utfbom v1.1.1
@@ -28,4 +28,4 @@ require (
 	golang.org/x/xerrors v0.0.0-20220609144429-65e65417b02f // indirect
 )
 
-go 1.19
+go 1.24
