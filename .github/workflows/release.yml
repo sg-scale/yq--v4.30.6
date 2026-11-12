@@ -46,7 +46,7 @@ jobs:
           ./scripts/xcompile.sh
 
       - name: Release
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v3
         with:
           files: build/*
           draft: true
